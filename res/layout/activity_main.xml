@@ -5,28 +5,27 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#71C5EC "
+    android:background="#000000"
     tools:context=".MainActivity">
+
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:srcCompat="@drawable/bg"/>
-
-
+        app:srcCompat="@drawable/bg3" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="WEATHER APP"
         android:layout_centerHorizontal="true"
-        android:fontFamily="monospace"
         android:layout_marginTop="70dp"
+        android:fontFamily="@font/alata"
+        android:text="WEATHER APP"
         android:textColor="@color/white"
         android:textSize="52dp"
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/cityName"
@@ -34,10 +33,11 @@
         android:layout_height="69dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="200dp"
-        android:background="#CE6BDF"
+        android:background="#000000"
+        android:fontFamily="@font/alata"
         android:hint="Enter City Name"
         android:textAlignment="center"
-        android:textColor="@color/white"
+        android:textColor="#ffffff"
         android:textColorHint="@color/white"
         android:textSize="30dp" />
 
@@ -48,7 +48,8 @@
         android:layout_alignParentRight="true"
         android:layout_marginTop="320dp"
         android:layout_marginRight="156dp"
-        android:background="#7A57BA"
+        android:background="#000000"
+        android:fontFamily="@font/alata"
         android:text="Search"
         android:textSize="20dp" />
 
@@ -56,12 +57,12 @@
         android:id="@+id/weather"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
+        android:layout_centerInParent="true"
+        android:background="#2E2E2E"
+        android:fontFamily="@font/alata"
+        android:textColor="@color/white"
         android:textSize="30dp"
-        android:textStyle="bold"
-        android:background="#D870EA"
-        android:textColor="@color/white"/>
+        android:textStyle="bold" />
 
 
 
